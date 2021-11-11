@@ -1,0 +1,34 @@
+.container {
+  border: 1px solid #fff;
+  width: 50%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 500px 50px;
+
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+.indicator {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.user-typing {
+  border-top: 1px solid #fff;
+}
+
+.user-typing p {
+  text-align: center;
+}
